@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sibedar.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent, SidebarComponent,
+    AppComponent, SidebarComponent, HeaderComponent
   ],
   imports: [
     BrowserModule
